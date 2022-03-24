@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: invoice
+  data:
+    cassandra:
+      keyspace-name: "invoicedata"
+      contact-points: localhost
+      port: 9042
+      schema-action: create_if_not_exists
+      local-datacenter: datacenter1
+
+
